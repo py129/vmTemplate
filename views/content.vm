@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>精选错题-举一反三</title>
+
+    ##parse("union/style/common_style.vm")
+
+    #set($chineseIndex=["一","二","三","四","五","六","七","八","九","十","十一","十二","十三","十四","十五","十六","十七","十八","十九","二十","二十一","二十二","二十三","二十四","二十五"])
+
+    <style>
+        @charset "utf-8";
+        li{list-style: none}
+
+        body{width:190mm;
+            height:267mm;
+            margin-left: 0px;
+            padding-top: 0px;
+                font-family:Times New Roman,SimSun ;
+            #if($subjectId==3)
+                font-size: 14px;
+            #else
+                font-size: 13px;
+            #end;
+        }
+
+        img{vertical-align:middle;}
+        img[name='ht']{max-width:100% !important;}
+        .contain{margin-left: 8px;break-inside: avoid;position: relative;
+            line-height: 21px;
+            min-height: 21px;
+            margin-bottom: 13px;
+        }
+
+        .first_title{
+            min-height: 29px;
+            line-height: 29px;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+            font-family:微软雅黑;
+            position: relative;
+            margin: 0;
+        }
+
+        .second_title{
+            font-size: 15px;
+            position: relative;
+            font-family:微软雅黑;
+            display: block;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        /* 每道题 */
+        .qitem{
+            padding-bottom: 0px;
+        }
+        .qitem_content{
+            display: block;
+            margin-left: 30px;
+        }
+        .qitem_content p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            display:block;
+            line-height: 21px;
+        }
+        .qitem_content>p:nth-of-type(1){
+            text-indent: -15px;
+        }
+        .qitem_content p img {
+            display:inline;
+        }
+        .qitem_title{
+            word-break:break-word;
+            line-height: 21px;
+            break-inside:auto;
+        }
+
+        .qitem_title p {
+            display:block;
+            word-wrap:break-word;
+        }
+        .qitem_title>p:nth-of-type(1){
+            text-indent: -15px;
+        }
+        .qitem_choose{ margin-bottom: 6px; margin-top:0px;padding: 0px;
+        }
+        .qitem_choose li{display: inline-block;
+        }
+        .qitem_choose li p{
+            display: block;
+            text-indent: -1em;
+            line-height: 21px;
+        }
+        .qitem_tips{
+            width: 85mm;
+            height: 28px;
+            font-size: 10px;
+            margin-top: 1mm;
+            margin-left: 30px;
+            line-height: 28px;
+            break-inside: avoid-column;
+        }
+        .qitem_tips span{
+            width: 35%;
+            float: left;
+            display: block;
+            text-align: center;
+        }
+        .qitem_tips span.bgColumn{
+            width: 1px;
+            display: block;
+            /* float: left; */
+            background-color: rgba(186, 184, 184, 0.56);
+            height: 8px;
+            /* top: 8px; */
+            margin-top: 10px;
+        }
+        .qitem_tips_Relevant{
+            width: 82mm;
+            height: 28px;
+            font-size: 10px;
+            margin-top: 1mm;
+            margin-left: 30px;
+            line-height: 28px;
+            break-inside: avoid-column;
+        }
+        .qitem_tips_Relevant span{
+            width: 33%;
+            float: left;
+            display: block;
+            text-align: center;
+        }
+        .qitem_tips_Relevant span.bgColumn{
+            width: 1px;
+            display: block;
+            background-color: rgba(186, 184, 184, 0.56);
+            height: 8px;
+            margin-top: 10px;
+        }
+        .qitem_notitle_choose{
+            position: relative;
+            padding-left: 25px;
+            box-sizing: content-box;
+            line-height: 21px;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .qitem_notitle_choose dt{position: absolute; left:-1px; top:0; margin-right:0px;}
+        .qitem_notitle_choose dd{ display: inline-block;text-align:left;margin-left:0px;}
+
+       ## #parse("union/debugIndex.vm")
+
+        @page{
+            size: 245mm 297mm ;
+            margin-left: 10mm;
+            margin-bottom: 13mm;
+            margin-top:17mm;
+            margin-right:45mm;
+        }
+
+        @page:first {
+            counter-reset: page $!{pageNumberStart};
+        }
+
+
+
+        .mutilColumn{
+            column-count: 2;
+            column-fill: balance;
+            column-rule-style:dotted;
+            position: relative;
+            column-rule-width: 1px;
+            column-gap: 26px;
+        }
+        span.bigTitleSpan{
+            float: left;
+            display: block;
+            height: 25px;
+            width: 10px;
+            height: 8mm;
+            line-height: 8mm;
+            font-size: 22px;
+        }
+        p.bigTitleP{
+            height: 1mm;
+            width: 109mm;
+            display: block;
+            background-color: rgba(62, 69, 78, 0.31);
+            float: left;
+            margin-left: 42mm;
+            margin-top: 2px;
+        }
+        .secondTitleBorder{
+            width: 18px;
+            height: 16px;
+            border: 2px solid black;
+            border-right: none;
+            display: block;
+            margin-top: 2px;
+            position: absolute;
+        }
+        .secondTitleIndex{
+            display: block;
+            background-color: black;
+            border: 1px solid white;
+            height: 14px;
+            text-align: center;
+            color: white;
+            line-height: 14px;
+        }
+        .question_option{
+            padding-left: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+## #parse("union/stuInfo.vm")
+<header id="header"></header>
+    ## 章节
+    #if($velocityCount==1)
+        <div style="page-break-inside:avoid;padding-top: 22px;">
+            <p style='color: white; line-height: 1px; font-size: 1px;word-break: keep-all;'>#if($velocityCount==0)#FTS${bigTitle}#FTE #end #STS ${item.name}#STE</p>
+            <h1 class="first_title">
+                ${chapterName}
+            </h1>
+        </div>
+    #end
+    
+    #set($secondTitleIndex=$velocityCount + 1)
+    ## 课时
+    <div class="second_title" style="margin-bottom: 20px;margin-top: 12px;text-align:center">
+        ${sectionName}
+    </div>
+    <div class="mutilColumn">
+        #foreach($exercise in ${workExerciseInfoBeans})
+            #set($prefixExeIndex="")
+            #if(${exercise.description})
+                <div style="margin-left: 6px; font-family:微软雅黑; font-weight: bold;
+                    line-height: 25px; font-size: 14px; width: 120px; height: 25px;  background: rgba(217,217,217,1);
+                    border-radius: 3px; position: relative; border: 1px solid rgba(44,44,44,1);">
+                    <div style="color: rgba(3,3,3,1); text-shadow: 1px 1px 6px  white; margin-left: 18px;">${exercise.description}</div>
+                    <div style="margin-right: 0;position: absolute;top: 0px;right: 0px;
+                    line-height: 25px;width: 32px;height: 25px;
+                    text-align: center;border-radius: 3px;background: rgba(255,255,255,1);">
+                        <img style="width: 18px;" src="data:image/png;base64,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"/>
+                    </div>
+                </div>
+            #else
+                <div class="content">
+                    #parse("exercise_content.vm")
+                </div>
+            #end
+            
+        #end
+    </div>
+</body>
+</html>
+

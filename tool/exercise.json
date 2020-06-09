@@ -1,0 +1,210 @@
+{
+    "chapterName": "第一章 英语短文理解",
+    "sectionName": "第一课时 阅读理解",
+    "workExerciseInfoBeans": [
+        {
+            "description": "基础篇",
+            "exerciseContent":  "<p style=\"text-align: center;\"><strong>Five ways to build self-confidence</strong></p> <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;* Walk faster.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;One of the easiest ways to tell how a person feels about himself is to examine his walk. People with confidence walk quickly. They have places to go, people to see, or important work to do. Even if you aren't in a hurry, you can increase your self-confidence by putting some energy in your step.&nbsp;<span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;</span></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>*&nbsp;<span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;</span></strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;One of the best ways to build confidence is listening to an inspiring speech. Unluckily, opportunities to listen to a great speaker are few. You can fill this need by creating a personal commercial. Write a 30 — 60 seconds' speech that focuses on your strengths and goals. Then recite it in front of the mirror aloud whenever you need a confidence push.</p> <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;* Sit in the front row.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;In schools, offices and some other public places, people always sit at the back of the room.&nbsp;<span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;</span>&nbsp;This reflects a lack of self-confidence. By deciding to sit in the front row, you can get over this meaningless fear and build your self-confidence.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>* Speak up.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;During group discussions many people never express their opinions because they're afraid that people will judge them for their saying something stupid. <span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;</span> By makinig an effort to express your opinions at least once in every group discussion, you will become a better public speaker, more confident in your own thoughts and recognized as a leader by your peers.</p> <p>&nbsp;&nbsp;<strong>&nbsp;&nbsp;* Work out.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;Along the same lines as personal appearance, physical fitness has a huge effect on self-confidence. <span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</span> By making your body fit and strong, you will improve your physical appearance, refresh yourself, and accomplish something positive.</p> <p>A. Listen to an inspiring speech.</p> <p>B. Create a personal speech.</p> <p>C. In fact most people feel good after a walk.</p> <p>D. Most people prefer that because they are afraid of being noticed.</p> <p>E. In fact most people are dealing with the same fear.</p> <p>F. Walking 25% faster will make you look and feel more important.</p> <p>G. If you are out of shape, you'll feel insecure, unattractive, and less energetic.</p>",
+            "exerciseId": 50813117,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "",
+                    "option": "A"
+                }, {
+                    "content": "",
+                    "option": "B"
+                }, {
+                    "content": "",
+                    "option": "C"
+                }, {
+                    "content": "",
+                    "option": "D"
+                }],
+                "questionContent": "",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51329792,
+                "questionIndex": 1,
+                "questionType": 1
+            },
+            {
+                "subQuestions":[],
+                "option": [{
+                    "content": "",
+                    "option": "A"
+                }, {
+                    "content": "",
+                    "option": "B"
+                }, {
+                    "content": "",
+                    "option": "C"
+                }, {
+                    "content": "",
+                    "option": "D"
+                }],
+                "questionContent": "",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51329793,
+                "questionIndex": 2,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10019262,
+            "index": 1
+        },
+        {
+            "description": "基础篇",
+            "exerciseContent":  "",
+            "exerciseId": 50812237,
+            "exerciseQuestionList": [{
+                "option": [{
+                    "content": "<p>in whom</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>of whom</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>to whom</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>on whom</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>Her elder daughter,&nbsp;<span style=\"text-decoration: underline;\">&nbsp; &nbsp; &nbsp;</span>&nbsp;she placed the greatest confidence, failed to match her expectation.</p>",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51328627,
+                "questionIndex": 1,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10004434,
+            "index": 2
+        },
+        {
+            "description": "基础篇",
+            "exerciseContent":  "",
+            "exerciseId": 50810577,
+            "exerciseQuestionList": [{
+                "questionContent": "<p>和西方一些国家的学生比起来，中国学生缺乏独立学习的能力。(lack)</p>",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51326182,
+                "questionIndex": 1,
+                "questionType": 3
+            }],
+            "exerciseTypeId": 10011070,
+            "index": 3
+        },
+        {
+            "description": "基础篇",
+            "exerciseContent": "<p>As more and more people speak the global languages of English, Chinese, Spanish, and Arabic, other languages are rapidly disappearing. In fact, half of the 6,000-7,000 languages spoken around the world today will likely die out by the next century, according to the United Nations zxxkEducational , Scientific and Cultural Organization (UNESCO). &nbsp; In an effort to prevent language loss, scholars from a number of organizations _UNESCO and National Geographic among them—have for many years been documenting dying languages and the cultures they reflect. &nbsp;Mark Turin, a scientist at the Macmillan Centre Yale University, who specializes in the languages and &nbsp;oral traditions of the Himalayas, is following in that tradition. His recently published book, A Grammar of Thangmi with an Ethnolinguistic Introduction to the Speakers and zxxkTheir Culture, grows out of his experience living, working, and raising a family in a village in Nepal. &nbsp;Documenting the Thangmi language and culture is just a starting point for Turin, who seeks to include other languages and oral traditions across the Himalayan reaches of India , Nepal, Bhutan, and China . But he is not content to simply record these voices before they disappear without record. &nbsp; At the University of Cambridge Turin discovered a wealth of important materials-including photographs, films, tape recordings, and field notes—which had remained unstudied and were badly in need of care and protection. &nbsp;Now, through the two organizations that he has founded –the Digital Himalaya Project and the World Oral Literature Project __Turin has started a campaign to make suchzxxk documents, for the world available not just to scholars but to the younger generations of communities from whom the materials were originally collected. Thanks to digital technology and the widely available Internet, Turin notes, the endangered languages can be saved and reconnected with speech communities.</p>",
+            "exerciseId": 50813626,
+            "exerciseQuestionList": [{
+                "option": [{
+                    "content": "<p>promote global languages</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>rescue disappearing languages</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>search for language communities</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>set up language research organizations.</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>Many scholars are making efforts to ______.</p>",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51330835,
+                "questionIndex": 1,
+                "questionType": 1
+            },{
+                "option": [{
+                    "content": "<p>Having full records of the languages</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>Writing books on language teaching.</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>Telling stories about language users</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>Living with the native speaker.</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>What does “that tradition’ in Paragraph 3 refer to ?</p>",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51330838,
+                "questionIndex": 2,
+                "questionType": 1
+            },{
+                "option": [{
+                    "content": "<p>Write, sell and donate.</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>Record, repair and reward.</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>Collect, protect and reconnect.</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>Design, experiment and report.</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>What is Turin’s book based on?</p>",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51330839,
+                "questionIndex": 3,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10004436,
+            "index": 4
+        },
+        {
+            "description": "基础篇",
+            "exerciseContent":  "<p style=\"text-align: center;\"><strong>Five ways to build self-confidence</strong></p> <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;* Walk faster.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;One of the easiest ways to tell how a person feels about himself is to examine his walk. People with confidence walk quickly. They have places to go, people to see, or important work to do. Even if you aren't in a hurry, you can increase your self-confidence by putting some energy in your step.&nbsp;<span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;</span></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>*&nbsp;<span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;</span></strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;One of the best ways to build confidence is listening to an inspiring speech. Unluckily, opportunities to listen to a great speaker are few. You can fill this need by creating a personal commercial. Write a 30 — 60 seconds' speech that focuses on your strengths and goals. Then recite it in front of the mirror aloud whenever you need a confidence push.</p> <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;* Sit in the front row.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;In schools, offices and some other public places, people always sit at the back of the room.&nbsp;<span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;</span>&nbsp;This reflects a lack of self-confidence. By deciding to sit in the front row, you can get over this meaningless fear and build your self-confidence.</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>* Speak up.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;During group discussions many people never express their opinions because they're afraid that people will judge them for their saying something stupid. <span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;</span> By makinig an effort to express your opinions at least once in every group discussion, you will become a better public speaker, more confident in your own thoughts and recognized as a leader by your peers.</p> <p>&nbsp;&nbsp;<strong>&nbsp;&nbsp;* Work out.</strong></p> <p>&nbsp;&nbsp;&nbsp;&nbsp;Along the same lines as personal appearance, physical fitness has a huge effect on self-confidence. <span style=\"text-decoration:underline\" class=\"qidline\">&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</span> By making your body fit and strong, you will improve your physical appearance, refresh yourself, and accomplish something positive.</p> <p>A. Listen to an inspiring speech.</p> <p>B. Create a personal speech.</p> <p>C. In fact most people feel good after a walk.</p> <p>D. Most people prefer that because they are afraid of being noticed.</p> <p>E. In fact most people are dealing with the same fear.</p> <p>F. Walking 25% faster will make you look and feel more important.</p> <p>G. If you are out of shape, you'll feel insecure, unattractive, and less energetic.</p>",
+            "exerciseId": 50813117,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "",
+                    "option": "A"
+                }, {
+                    "content": "",
+                    "option": "B"
+                }, {
+                    "content": "",
+                    "option": "C"
+                }, {
+                    "content": "",
+                    "option": "D"
+                }],
+                "questionContent": "",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51329792,
+                "questionIndex": 1,
+                "questionType": 1
+            },
+            {
+                "subQuestions":[],
+                "option": [{
+                    "content": "",
+                    "option": "A"
+                }, {
+                    "content": "",
+                    "option": "B"
+                }, {
+                    "content": "",
+                    "option": "C"
+                }, {
+                    "content": "",
+                    "option": "D"
+                }],
+                "questionContent": "",
+                "questionExplain": "<p>根据第一段可知和步行 walk 有关，C 和 F 二选一，又因小标题 Walk Faster 讲述的是较快，故选 F。</p>",
+                "questionId": 51329793,
+                "questionIndex": 2,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10019262,
+            "index": 5
+        }
+    ]
+}

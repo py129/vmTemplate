@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>精选错题答案-举一反三</title>
+
+    ##parse("union/style/common_style.vm")
+
+  <style>
+
+      ## 获取科目id
+      @charset "utf-8";
+      *{margin: 0; padding: 0; color: #000;}
+      body{ width:190mm;
+        height:267mm;
+        padding-top:2px;
+        margin-left: 0px;
+        font-family:Times New Roman,SimSun ;
+          #if($subjectId==3)
+            font-size: 12px;
+          #else
+            font-size: 10px;
+          #end;
+      }
+      p {line-height: 16px;}
+      img{vertical-align:middle;max-width:100% !important;}
+      .bigtitle{font-size: 18px; font-weight: bold; }
+      .hidden{
+        height: 1px;
+        opacity: 1;
+        color: #fff;
+        font-size: 1px;
+        display: inline-block;
+        vertical-align: middle;
+        word-break: normal;
+        position:absolute;
+      }
+      @page{
+        size: 245mm 297mm ;
+        margin-left: 10mm;
+        margin-bottom: 13mm;
+        margin-top:17mm;
+        margin-right:45mm;
+      }
+      .rightAnswerContent{
+        margin-left: 25px;
+        clear: both;
+      }
+      .analyseContent{
+        margin-left: 25px;
+      }
+      .questionIndex{
+        min-width: 20px;
+        float: left;
+        text-align: center;
+        display: block;
+        line-height: 18px;
+        height: 18px;
+      }
+      .questionIndex_rightAnswer{
+        min-width: 25px;
+        text-align: right;
+        display: inline-block;
+        line-height: 21px;
+        height: 21px;
+        font-size: 13px;
+        margin-left: -28px;
+      }
+      .questionIndex_analysis{
+        min-width: 25px;
+        text-align: right;
+        display: inline-block;
+        line-height: 21px;
+        height: 21px;
+        font-size: 13px;
+        margin-left: -25px;
+      }
+      .myAnswer{
+        margin-top: 1mm;
+      }
+
+
+      @page:first {
+        counter-reset: page $!{pageNumberStart};
+      }
+
+
+      span.bigTitleSpan{
+        float: left;
+        display: block;
+        height: 25px;
+        width: 10px;
+        height: 8mm;
+        line-height: 8mm;
+        font-size: 22px;
+      }
+      p.bigTitleP{
+        height: 1mm;
+        width: 109mm;
+        display: block;
+        background-color: rgba(62, 69, 78, 0.31);
+        float: left;
+        margin-left: 36mm;
+        margin-top: 2px;
+      }
+      .mutilColumn{
+        column-count: 2;
+        column-fill: auto;
+        column-rule-style:dotted;
+        column-rule-width: 1px;
+      }
+      .first_title{
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .myAnswerTip{
+        line-height: 16px;
+        display:inline-block;
+        margin-left: 5px;
+        text-align: center;
+      }
+      .analysis_text{
+        line-height: 21px;
+        display:inline-block;
+        width: 55px;
+        text-align: center;
+      }
+      .myAnswerContent{
+        display: block;
+        /*float: left;*/
+        line-height: 23px;
+        margin-left: 24px;
+        border: 2px dashed gray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+      }
+      .rightAnswerTip{
+        line-height: 21px;
+        display: inline-block;
+        width: 85px;
+        text-align: center;
+      }
+
+      .myAnswerNoImg{
+        display: block;
+        width: 88mm;
+        clear: both;
+        margin-left: 25px;
+        margin-bottom: 5px;
+      }
+      .qitem_tips{
+        width: 85mm;
+        height: 20px;
+        font-size: 10px;
+        margin-left: 24px;
+        line-height: 20px;
+        break-inside: avoid-column;
+      }
+      .qitem_tips span{
+        width: 32%;
+        float: left;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+      }
+      .qitem_tips span.bgColumn{
+        width: 1px;
+        display: block;
+        background-color: rgba(186, 184, 184, 0.56);
+        height: 8px;
+        margin-top: 10px;
+      }
+
+
+      img[name=ht]{
+        zoom:0.5
+      }
+  </style>
+
+</head>
+<body>
+    #set($mergeExeTypeId=["10004435","10004436","10019262","10230432","10230433","10003107"])
+
+   ## #parse("union/stuInfo.vm")
+
+<div style="width:100%;height: 10mm;text-align:center;font-size:22px;font-weight: bold;margin-top:5px;margin-bottom:5mm;font-family:'STHeiti'">
+  <span class="bigTitleSpan" style="margin-left:36mm;background-color: #6d6565"></span>
+  <span class="bigTitleSpan" style="margin-left:2mm;background-color: #949494"></span>
+  <span class="bigTitleSpan" style="margin-left:2mm;background-color: rgba(62, 69, 78, 0.31);width:100mm;">
+   ## 第 $chineseIndex.get($titleIndex) 部 分&nbsp;&nbsp;答&nbsp;&nbsp;&nbsp;&nbsp;案
+   第三部分 &nbsp; 答案
+  </span>
+  <p class="bigTitleP"></p>
+</div>
+<div class="mutilColumn">
+  
+
+    #set($chineseIndex=["一","二","三","四","五","六","七","八","九","十","十一","十二","十三","十四","十五","十六","十七","十八","十九","二十","二十一","二十二","二十三","二十四","二十五"])
+
+    #foreach($error in $eErrorBookList)
+        ## 章节
+        <p style='color: white; line-height: 1px; font-size: 1px;word-break: keep-all;'>#FTS${bigTitle}#FTE</p>
+        <div style='width:100%; text-align:center;font-weight:bold;font-size:20px;margin-top:5mm;margin-bottom:5mm'> 第$chineseIndex.get($velocityCount)章 ${error.name}</div>
+
+        #foreach($type in ${error.types})
+            ## 课时
+            <div style="page-break-inside:avoid;margin-top: 4mm;">
+                <h1 class="first_title">
+                    ###（$chineseIndex.get($velocityCount)）${type.name}
+                    课时$velocityCount.${type.name}
+                </h1>
+            </div>
+            #foreach($exerciseInfo in $!{type.exerciseInfos})
+                ## 题目
+                #set($prefixExeIndex="")
+                #set($isRealExercise=true)
+
+                 #if($velocityCount%2==0)
+                    <div style="page-break-inside:avoid;margin-top: 2mm;">
+                        <span class="first_title">【基础篇】</span>
+                    </div>
+                #else
+                    ## 是错题部分
+                    #set($isError=true)
+                     #parse("exercise_answer.vm")
+
+                    #if(!$needErrorAnalysis && $mergeExeTypeId.contains($exerciseInfo.exerciseTypeId.toString()))
+                        ##parse("union/style/merge_answer.vm")
+                    #else
+                        ##parse("union/1/exercise_answer.vm")
+                    #end
+                #end
+
+            #end
+        #end
+    #end
+</div>
+</body>
+</html>

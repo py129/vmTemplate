@@ -1,0 +1,110 @@
+##    macro method --------------------start-------
+
+##    macro method --------------------end-------
+
+#foreach($topicAnalysis in $!{exerciseInfo.topicAnalysises})
+
+    #set($hasMultiQuestions=false)
+    #if($!{exerciseInfo.topicAnalysises.size()}>1)
+        #set($hasMultiQuestions=true)
+    #end
+
+    #set($showIndex="")
+    #if($!{velocityCount}<1&&$isRealExercise==true)
+        #set($showIndex=$!{exerciseInfo.index} + ".")
+    #end
+    #if($hasMultiQuestions || ($!topicAnalysis.subTopicAnalysis ||$!{topicAnalysis.subTopicAnalysis.size()}>0))
+        #set($showIndex=$!{showIndex}+""+'('+${topicAnalysis.analysisIndex}+')')
+    #end
+
+    #if($velocityCount<1&& $isError==false)
+        #set($showIndex=$!prefixExeIndex+$showIndex)
+    #end
+    #if($isRealExercise==true && $isError==true && $isHfAnswer==false)
+        <div class="myAnswer">
+            ## 获取我的答案
+                    <div><span class="questionIndex">${showIndex}</span>
+                    #if(!$!exerciseInfo.exerciseQuestionList.get($velocityCount).photo)
+                        #if($exerciseInfo.exerciseQuestionList.get($velocityCount).userAnswer)
+                            #foreach($userAnswer in $!exerciseInfo.exerciseQuestionList.get($velocityCount).userAnswer)
+                                <span class="myAnswerTip">【我的答案】</span> <span class="myAnswerNoImg">$userAnswer </span>
+                            #end
+                        #else
+                            <span class="myAnswerTip">【我的答案】</span> <span class="myAnswerNoImg">未作答</span>
+                        #end
+                    #else
+                        <span class="myAnswerTip">【我的答案】</span>
+                    #end
+                </div>
+
+            ## 如果是图片答案，需要另起一行
+                #if($!exerciseInfo.exerciseQuestionList.get($velocityCount).photo)
+                    <div class='myAnswerContent'>
+                        #set($prevPhoto='1')
+                        #foreach($img in $exerciseInfo.exerciseQuestionList.get($velocityCount).photo)
+                            #if($prevPhoto!=$img)
+                                <div name="answerImgDiv" style="height: 1px;color:white">1</div>
+                                <p>#myAnswerTransfer($img,$exerciseInfo.exerciseId,${exerciseInfo.exerciseQuestionList.get($velocityCount).questionId})</p>
+                                #set($prevPhoto=$img)
+                            #end
+                        #end
+                    </div>
+                #end
+            ##	清空题号-要不然易错本会重复显示
+                #set($showIndex="")
+        </div>
+    #end
+#end
+
+#if(!$!exerciseInfo.topicAnalysises ||$!{exerciseInfo.topicAnalysises.size()}>0)
+
+    #if($isError==false)
+        #set($showIndex=$prefixExeIndex+$!{exerciseInfo.index}+".")
+    #else
+        #set($showIndex=$!{exerciseInfo.index}+".")
+    #end
+
+    <div><span class="anslyseIndexSpan" style="margin-left: -10px;">${showIndex}</span>
+        <span class="anslyseTitleSpan">【正确答案】</span>
+    </div>
+    <div class='rightAnswerContent'>
+        #set($group=$!{exerciseInfo.topicAnalysises.size()} / 5)
+        #set($groupMod=$!{exerciseInfo.topicAnalysises.size()} % 5)
+        #if($group>0)
+            #foreach($i in  [1..$group])
+                <div class="" style="float: left;">
+                    #set($startNum= $i * 5 - 4)
+                    #set($maxNum=$i * 5)
+                    <span style="
+                    margin-right: 5px;
+                    height: 21px;width: 35px;display: inline-block;
+                    line-height: 21px;font-size: 13px;">${startNum}-$maxNum</span>
+                    <span style="line-height: 21px;display: inline-block;margin-right: 40px;font-size: 12px;">
+                        #foreach($j in [$startNum..$maxNum])
+                        #set($jIndex=$j - 1)
+                        $exerciseInfo.topicAnalysises.get($jIndex).answers[0].content
+                    #end
+                </span>
+                </div>
+            #end
+        #end
+        #if($groupMod>0)
+            <div class="" style="float: left;">
+                #set($startNum= $group * 5 +1)
+                #set($maxNum=$group * 5 + $groupMod)
+                <span style="
+                    margin-right: 5px;
+                    height: 21px;width: 35px;display: inline-block;
+                    line-height: 21px;font-size: 13px;">${startNum}-$maxNum</span>
+                <span style="line-height: 21px;display: inline-block;margin-right: 40px;font-size: 12px;">
+                    #foreach($j in [$startNum..$maxNum])
+                        #set($jIndex=$j - 1)
+                        $exerciseInfo.topicAnalysises.get($jIndex).answers[0].content
+                    #end
+                </span>
+            </div>
+        #end
+        <p style="clear: both;display: block;"></p>
+    </div>
+
+#end

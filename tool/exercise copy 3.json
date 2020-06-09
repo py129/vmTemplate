@@ -1,0 +1,212 @@
+{
+    "chapterName": "第一章 线性代数",
+    "sectionName": "第一课时 基础练习",
+    "workExerciseInfoBeans": [
+        {
+            "description": "基础篇",
+            "exerciseContent": "",
+            "exerciseId": 330322162810363908,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "<p>充分不必要条件</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>必要不充分条件</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>充要条件</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>既不充分也不必要条件</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>已知平面<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Cperp&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\perp\">平面<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cbeta&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\beta\">，直线<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%20%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m \\subset \\alpha\">，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Ccap%20%5Cbeta%20%3D%20l&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\cap \\beta = l\">，则“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%20%5Cperp%20l&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m \\perp l\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%20%5Cperp%20%20%5Cbeta&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m \\perp  \\beta\">”的（ &nbsp; &nbsp;）</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 330322163087187972,
+                "questionIndex": 1,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 1111,
+            "index": 1
+        },
+        {
+            "description": "提高",
+            "exerciseContent": "",
+            "exerciseId": 50857993,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot\\beta \">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%2F%2F%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha //\\beta \">”成立的充要条件</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Cbot%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\bot\\beta \">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Cbot%20%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\bot \\beta \">”的充分不必要条件</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%2F%2F%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n// \\alpha\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%2F%2Fn&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m//n\">”的必要不充分条件</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot\\alpha\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Cbot%20n&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\bot n\">”的充分不必要条件</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>设<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%2Cn&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m,n\">是空间两条不同直线，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%2C%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha,\\beta \">是空间有两个不同平面，则下列选项中不正确的是（ &nbsp; &nbsp;）</p>",
+                "questionExplain": "这是解析！！！！！！！！！！",
+                "questionId": 51401999,
+                "questionIndex": 1,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10019373,
+            "index": 2
+        },
+        {
+            "description": "",
+            "exerciseContent": "<p>已知函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20%3D2%5Cln%20x%2Bx%5E%7B2%7D-2ax&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) =2\\ln x+x^{2}-2ax\"><img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cleft(%20a%3E0%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"\\left( a>0\\right) \">.</p>",
+            "exerciseId": 50078180,
+            "exerciseQuestionList": [{
+                "option": [],
+                "questionContent": "<p>讨论函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) \">的单调性；</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 50134864,
+                "questionIndex": 1,
+                "questionType": 6
+            }, {
+                "option": [],
+                "questionContent": "<p>若函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) \">有两个极值点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=x_%7B1%7D&amp;size=30\" name=\"ht\" data-latex=\"x_{1}\">，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=x_%7B2%7D&amp;size=30\" name=\"ht\" data-latex=\"x_{2}\"><img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cleft(%20x_%7B1%7D%20%3C%20x_%7B2%7D%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"\\left( x_{1} < x_{2}\\right) \">，且<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x_%7B1%7D%5Cright)%20-f%5Cleft(x_%7B2%7D%5Cright)%20%5Cgeqslant%20%5Cdfrac%20%7B3%7D%20%7B2%7D-%5Cln2&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x_{1}\\right) -f\\left(x_{2}\\right) \\geqslant \\dfrac {3} {2}-\\ln2\">恒成立，求<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=a&amp;size=30\" name=\"ht\" data-latex=\"a\">的取值范围.</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 50134865,
+                "questionIndex": 2,
+                "questionType": 6
+            }],
+            "exerciseTypeId": 10002621,
+            "index": 3
+        },
+        {
+            "description": "基础篇",
+            "exerciseContent": "<p>某农科所对冬季昼夜温差大小与某反季节大豆新品种发芽多少之间的关系进行分析研究，他们分别记录了<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=12&amp;size=30\" name=\"ht\" data-latex=\"12\">月<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=1&amp;size=30\" name=\"ht\" data-latex=\"1\">日至<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=12&amp;size=30\" name=\"ht\" data-latex=\"12\">月<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=5&amp;size=30\" name=\"ht\" data-latex=\"5\">日的每天昼夜温差与实验室每天<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=100&amp;size=30\" name=\"ht\" data-latex=\"100\">颗种子的发芽数，得到如下资料：</p> <p><img src=\"https://img.willclass.com/api/show/image?fileKey=bf90305ef88b1aa6671749da20517d5a\" style=\"max-width:500px\"></p> <p>该农科所确定的研究方案：先从这<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=5&amp;size=30\" name=\"ht\" data-latex=\"5\">组数据中选取<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=3&amp;size=30\" name=\"ht\" data-latex=\"3\">组数据求线性回归方程，剩下的<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=2&amp;size=30\" name=\"ht\" data-latex=\"2\">组数据用于回归方程检验.</p>",
+            "exerciseId": 330322162810363908,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "<p>充分不必要条件</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>必要不充分条件</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>充要条件</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>既不充分也不必要条件</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>已知平面<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Cperp&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\perp\">平面<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cbeta&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\beta\">，直线<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%20%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m \\subset \\alpha\">，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Ccap%20%5Cbeta%20%3D%20l&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\cap \\beta = l\">，则“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%20%5Cperp%20l&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m \\perp l\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%20%5Cperp%20%20%5Cbeta&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m \\perp  \\beta\">”的（ &nbsp; &nbsp;）</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 330322163087187972,
+                "questionIndex": 1,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 1111,
+            "index": 4
+        },
+        {
+            "description": "提高",
+            "exerciseContent": "<p>已知抛物线<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=y%5E%7B2%7D%3D2px%5Cleft(%20p%3E0%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"y^{2}=2px\\left( p>0\\right) \">，点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=E(%202%2C1)%20&amp;size=30\" name=\"ht\" data-latex=\"E( 2,1) \">，若斜率为<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=2&amp;size=30\" name=\"ht\" data-latex=\"2\">的弦过点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=E&amp;size=30\" name=\"ht\" data-latex=\"E\">，且<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=E&amp;size=30\" name=\"ht\" data-latex=\"E\">为弦的中点.</p>",
+            "exerciseId": 50857993,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot\\beta \">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%2F%2F%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha //\\beta \">”成立的充要条件</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Cbot%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\bot\\beta \">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Cbot%20%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\bot \\beta \">”的充分不必要条件</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%2F%2F%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n// \\alpha\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%2F%2Fn&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m//n\">”的必要不充分条件</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot\\alpha\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Cbot%20n&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\bot n\">”的充分不必要条件</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>设<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%2Cn&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m,n\">是空间两条不同直线，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%2C%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha,\\beta \">是空间有两个不同平面，则下列选项中不正确的是（ &nbsp; &nbsp;）</p>",
+                "questionExplain": "这是解析！！！！！！！！！！",
+                "questionId": 51401999,
+                "questionIndex": 1,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10019373,
+            "index": 5
+        },
+        {
+            "description": "",
+            "exerciseContent": "<p>已知椭圆<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=C&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"C\">：<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cfrac%7Bx%5E2%7D%7Ba%5E2%7D%2B%5Cfrac%7By%5E2%7D%7Bb%5E2%7D%3D1(a%3Eb%3E0)&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)\">的离心率为<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cfrac%7B%5Csqrt2%7D%7B2%7D&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\frac{\\sqrt2}{2}\">，且四个顶点构成的四边形的面积是<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=8%5Csqrt2&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"8\\sqrt2\">.</p>",
+            "exerciseId": 50078180,
+            "exerciseQuestionList": [{
+                "option": [],
+                "questionContent": "<p>讨论函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) \">的单调性；</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 50134864,
+                "questionIndex": 1,
+                "questionType": 6
+            }, {
+                "option": [],
+                "questionContent": "<p>若函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) \">有两个极值点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=x_%7B1%7D&amp;size=30\" name=\"ht\" data-latex=\"x_{1}\">，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=x_%7B2%7D&amp;size=30\" name=\"ht\" data-latex=\"x_{2}\"><img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cleft(%20x_%7B1%7D%20%3C%20x_%7B2%7D%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"\\left( x_{1} < x_{2}\\right) \">，且<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x_%7B1%7D%5Cright)%20-f%5Cleft(x_%7B2%7D%5Cright)%20%5Cgeqslant%20%5Cdfrac%20%7B3%7D%20%7B2%7D-%5Cln2&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x_{1}\\right) -f\\left(x_{2}\\right) \\geqslant \\dfrac {3} {2}-\\ln2\">恒成立，求<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=a&amp;size=30\" name=\"ht\" data-latex=\"a\">的取值范围.</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 50134865,
+                "questionIndex": 2,
+                "questionType": 6
+            }],
+            "exerciseTypeId": 10002621,
+            "index": 6
+        },
+        {
+            "description": "提高",
+            "exerciseContent": "<p>已知抛物线<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=y%5E%7B2%7D%3D2px%5Cleft(%20p%3E0%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"y^{2}=2px\\left( p>0\\right) \">，点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=E(%202%2C1)%20&amp;size=30\" name=\"ht\" data-latex=\"E( 2,1) \">，若斜率为<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=2&amp;size=30\" name=\"ht\" data-latex=\"2\">的弦过点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=E&amp;size=30\" name=\"ht\" data-latex=\"E\">，且<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=E&amp;size=30\" name=\"ht\" data-latex=\"E\">为弦的中点.</p>",
+            "exerciseId": 50857993,
+            "exerciseQuestionList": [{
+                "subQuestions":[],
+                "option": [{
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot\\beta \">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%2F%2F%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha //\\beta \">”成立的充要条件</p>",
+                    "option": "A"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Cbot%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\bot\\beta \">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%20%5Cbot%20%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha \\bot \\beta \">”的充分不必要条件</p>",
+                    "option": "B"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%2F%2F%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n// \\alpha\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%2F%2Fn&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m//n\">”的必要不充分条件</p>",
+                    "option": "C"
+                }, {
+                    "content": "<p>当<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Csubset%20%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\subset \\alpha\">时，“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=n%5Cbot%5Calpha&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"n\\bot\\alpha\">”是“<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%5Cbot%20n&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m\\bot n\">”的充分不必要条件</p>",
+                    "option": "D"
+                }],
+                "questionContent": "<p>设<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=m%2Cn&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"m,n\">是空间两条不同直线，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Calpha%2C%5Cbeta%20&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\alpha,\\beta \">是空间有两个不同平面，则下列选项中不正确的是（ &nbsp; &nbsp;）</p>",
+                "questionExplain": "这是解析！！！！！！！！！！",
+                "questionId": 51401999,
+                "questionIndex": 1,
+                "questionType": 1
+            }],
+            "exerciseTypeId": 10019373,
+            "index": 7
+        },
+        {
+            "description": "",
+            "exerciseContent": "<p>已知椭圆<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=C&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"C\">：<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cfrac%7Bx%5E2%7D%7Ba%5E2%7D%2B%5Cfrac%7By%5E2%7D%7Bb%5E2%7D%3D1(a%3Eb%3E0)&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)\">的离心率为<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cfrac%7B%5Csqrt2%7D%7B2%7D&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"\\frac{\\sqrt2}{2}\">，且四个顶点构成的四边形的面积是<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=8%5Csqrt2&amp;size=30\" name=\"ht\" alt=\"公式预览失败\" data-latex=\"8\\sqrt2\">.</p>",
+            "exerciseId": 50078180,
+            "exerciseQuestionList": [{
+                "option": [],
+                "questionContent": "<p>讨论函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) \">的单调性；</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 50134864,
+                "questionIndex": 1,
+                "questionType": 6
+            }, {
+                "option": [],
+                "questionContent": "<p>若函数<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x\\right) \">有两个极值点<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=x_%7B1%7D&amp;size=30\" name=\"ht\" data-latex=\"x_{1}\">，<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=x_%7B2%7D&amp;size=30\" name=\"ht\" data-latex=\"x_{2}\"><img src=\"https://img.willclass.com/api/generate/formula?formulaStr=%5Cleft(%20x_%7B1%7D%20%3C%20x_%7B2%7D%5Cright)%20&amp;size=30\" name=\"ht\" data-latex=\"\\left( x_{1} < x_{2}\\right) \">，且<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=f%5Cleft(%20x_%7B1%7D%5Cright)%20-f%5Cleft(x_%7B2%7D%5Cright)%20%5Cgeqslant%20%5Cdfrac%20%7B3%7D%20%7B2%7D-%5Cln2&amp;size=30\" name=\"ht\" data-latex=\"f\\left( x_{1}\\right) -f\\left(x_{2}\\right) \\geqslant \\dfrac {3} {2}-\\ln2\">恒成立，求<img src=\"https://img.willclass.com/api/generate/formula?formulaStr=a&amp;size=30\" name=\"ht\" data-latex=\"a\">的取值范围.</p>",
+                "questionExplain": "这是解析！",
+                "questionId": 50134865,
+                "questionIndex": 2,
+                "questionType": 6
+            }],
+            "exerciseTypeId": 10002621,
+            "index": 8
+        }
+    ]
+}

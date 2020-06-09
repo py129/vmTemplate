@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>精选错题-举一反三</title>
+
+    
+    
+    <style>
+        @charset "utf-8";
+        li{list-style: none}
+
+        body{width:190mm;
+            height:267mm;
+            margin-left: 0px;
+            padding-top: 0px;
+                font-family:Times New Roman,SimSun ;
+                            font-size: 13px;
+            ;
+        }
+
+        img{vertical-align:middle;}
+        img[name='ht']{max-width:100% !important;}
+        .contain{margin-left: 8px;break-inside: avoid;position: relative;
+            line-height: 21px;
+            min-height: 21px;
+            margin-bottom: 13px;
+        }
+
+        .first_title{
+            min-height: 29px;
+            line-height: 29px;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+            font-family:微软雅黑;
+            position: relative;
+            margin: 0;
+        }
+
+        .second_title{
+            font-size: 15px;
+            position: relative;
+            font-family:微软雅黑;
+            display: block;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        /* 每道题 */
+        .qitem{
+            padding-bottom: 0px;
+        }
+        .qitem_content{
+            display: block;
+            margin-left: 30px;
+        }
+        .qitem_content p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            display:block;
+            line-height: 21px;
+        }
+        .qitem_content>p:nth-of-type(1){
+            text-indent: -15px;
+        }
+        .qitem_content p img {
+            display:inline;
+        }
+        .qitem_title{
+            word-break:break-word;
+            line-height: 21px;
+            break-inside:auto;
+        }
+
+        .qitem_title p {
+            display:block;
+            word-wrap:break-word;
+        }
+        .qitem_title>p:nth-of-type(1){
+            text-indent: -15px;
+        }
+        .qitem_choose{ margin-bottom: 6px; margin-top:0px;padding: 0px;
+        }
+        .qitem_choose li{display: inline-block;
+        }
+        .qitem_choose li p{
+            display: block;
+            text-indent: -1em;
+            line-height: 21px;
+        }
+        .qitem_tips{
+            width: 85mm;
+            height: 28px;
+            font-size: 10px;
+            margin-top: 1mm;
+            margin-left: 30px;
+            line-height: 28px;
+            break-inside: avoid-column;
+        }
+        .qitem_tips span{
+            width: 35%;
+            float: left;
+            display: block;
+            text-align: center;
+        }
+        .qitem_tips span.bgColumn{
+            width: 1px;
+            display: block;
+            /* float: left; */
+            background-color: rgba(186, 184, 184, 0.56);
+            height: 8px;
+            /* top: 8px; */
+            margin-top: 10px;
+        }
+        .qitem_tips_Relevant{
+            width: 82mm;
+            height: 28px;
+            font-size: 10px;
+            margin-top: 1mm;
+            margin-left: 30px;
+            line-height: 28px;
+            break-inside: avoid-column;
+        }
+        .qitem_tips_Relevant span{
+            width: 33%;
+            float: left;
+            display: block;
+            text-align: center;
+        }
+        .qitem_tips_Relevant span.bgColumn{
+            width: 1px;
+            display: block;
+            background-color: rgba(186, 184, 184, 0.56);
+            height: 8px;
+            margin-top: 10px;
+        }
+        .qitem_notitle_choose{
+            position: relative;
+            padding-left: 25px;
+            box-sizing: content-box;
+            line-height: 21px;
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .qitem_notitle_choose dt{position: absolute; left:-1px; top:0; margin-right:0px;}
+        .qitem_notitle_choose dd{ display: inline-block;text-align:left;margin-left:0px;}
+
+       
+        @page{
+            size: 245mm 297mm ;
+            margin-left: 10mm;
+            margin-bottom: 13mm;
+            margin-top:17mm;
+            margin-right:45mm;
+        }
+
+        @page:first {
+            counter-reset: page ;
+        }
+
+
+
+        .mutilColumn{
+            column-count: 2;
+            column-fill: balance;
+            column-rule-style:dotted;
+            position: relative;
+            column-rule-width: 1px;
+            column-gap: 26px;
+        }
+        span.bigTitleSpan{
+            float: left;
+            display: block;
+            height: 25px;
+            width: 10px;
+            height: 8mm;
+            line-height: 8mm;
+            font-size: 22px;
+        }
+        p.bigTitleP{
+            height: 1mm;
+            width: 109mm;
+            display: block;
+            background-color: rgba(62, 69, 78, 0.31);
+            float: left;
+            margin-left: 42mm;
+            margin-top: 2px;
+        }
+        .secondTitleBorder{
+            width: 18px;
+            height: 16px;
+            border: 2px solid black;
+            border-right: none;
+            display: block;
+            margin-top: 2px;
+            position: absolute;
+        }
+        .secondTitleIndex{
+            display: block;
+            background-color: black;
+            border: 1px solid white;
+            height: 14px;
+            text-align: center;
+            color: white;
+            line-height: 14px;
+        }
+        .question_option{
+            padding-left: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header id="header"></header>
+            
+            <div class="second_title" style="margin-bottom: 20px;margin-top: 12px;text-align:center">
+        ${sectionName}
+    </div>
+    <div class="mutilColumn">
+            </div>
+</body>
+</html>
+

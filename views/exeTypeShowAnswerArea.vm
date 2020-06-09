@@ -1,0 +1,44 @@
+
+
+#if(!$!{showAnswerQuestion.subQuestions} || $!{showAnswerQuestion.subQuestions.size()}==0)	## 有小小问的小问不展示答题区，只展示小小问的答题区
+    #if($showAnswerQuestion.questionType!=1 && $showAnswerQuestion.questionType!=2 && $showAnswerQuestion.questionType!=3
+    && $showAnswerQuestion.questionType!=11 && $showAnswerQuestion.questionType!=12 && $showAnswerQuestion.questionType!=13
+    && $showAnswerQuestion.questionType!=15 && $showAnswerQuestion.questionType!=17
+    && $exercise.exerciseTypeId!=10004446
+    && $exercise.exerciseTypeId!=10230376
+    && $exercise.exerciseTypeId!=10011069
+    && $exercise.exerciseTypeId!=10230352
+    && $exercise.exerciseTypeId!=10011066
+    && !($showAnswerQuestion.questionType==5 && $exercise.exerciseTypeId==10230381)
+    )## 小问选择/填空/判断/写作类型/简答 不留答题区
+        <div class='qitem_title'>
+            <p>
+                #if($subjectId==2)
+                    #if($showAnswerQuestionSize==3)
+                        #if($showAnswerQuestionIndex==0)
+                            <br/><br/><br/><br/><br/>
+                        #elseif($showAnswerQuestionIndex==1)
+                            <br/><br/><br/><br/><br/><br/><br/><br/>
+                        #elseif($showAnswerQuestionIndex==2)
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        #end
+                    #elseif($showAnswerQuestionSize==2)
+                        #if($showAnswerQuestionIndex==0)
+                            <br/><br/><br/><br/><br/><br/>
+                        #elseif($showAnswerQuestionIndex==1)
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        #end
+                    #elseif($showAnswerQuestionSize==1)
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    #else
+                        <br/><br/><br/><br/><br/>
+                    #end
+                #elseif($subjectId==3)
+                    <br/><br/><br/><br/><br/><br/>
+                #else
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                #end
+            </p>
+        </div>
+    #end
+#end

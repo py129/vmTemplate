@@ -1,0 +1,111 @@
+##    macro method --------------------start-------
+
+##    macro method --------------------end-------
+
+#foreach($topicAnalysis in $!{exerciseInfo.topicAnalysises})
+
+  #set($hasMultiQuestions=false)
+  #if($!{exerciseInfo.topicAnalysises.size()}>1)
+    #set($hasMultiQuestions=true)
+  #end
+
+
+
+  #set($showIndex="")
+  #if($!{velocityCount}<1&&$isRealExercise==true)
+    #set($showIndex=$!{exerciseInfo.index}+".")
+  #end
+  #if($hasMultiQuestions || ($!topicAnalysis.subTopicAnalysis ||$!{topicAnalysis.subTopicAnalysis.size()}>0))
+    #set($showIndex=$!{showIndex}+""+'('+${topicAnalysis.analysisIndex}+')')
+  #end
+
+  #if($velocityCount<1&& $isError==false)
+    #set($showIndex=$!prefixExeIndex+$showIndex)
+  #end
+
+<div class="myAnswer">
+  #set ($questionExplain=$!{topicAnalysis.questionExplain})
+
+  ##没有小小问
+  #if(!$!topicAnalysis.subTopicAnalysis ||$!{topicAnalysis.subTopicAnalysis.size()}==0)
+        <div style="" class='rightAnswerContent'>
+        #echo(${topicAnalysis.answers[0].content})
+        #imgTransfer(${showIndex},${topicAnalysis.answers[0].content},'',$exerciseInfo.exerciseId,${exerciseInfo.exerciseQuestionList.get($velocityCount).questionId},"AnswerMerge")
+        </div>
+        #set($showIndex="")
+
+        #if($questionExplain==""||$questionExplain=="<p>无</p>"||$questionExplain=="无" )
+
+        #else
+        <div class='analyseContent'>
+            #echo(${topicAnalysis.questionExplain})
+
+            #imgTransfer($showIndex,${topicAnalysis.questionExplain},'',$exerciseInfo.exerciseId,${exerciseInfo.exerciseQuestionList.get($velocityCount).questionId},"AnalyseMerge")
+            #set($showIndex="")
+        </div>
+        #end
+  #else
+  ## 有小小问
+        #set($currentQuestion=$!exerciseInfo.exerciseQuestionList.get($velocityCount))
+
+        #foreach($subTopicAnalysis in $!topicAnalysis.subTopicAnalysis)
+            ## 获取问题解析
+
+            #set($showIndex='')
+
+            #if($topicAnalysis.analysisIndex!='' && $velocityCount<1)
+                #set($showIndex= $showIndex+"("+$!{topicAnalysis.analysisIndex}+")")
+            #end
+
+            #set ($questionExplain=$!{subTopicAnalysis.questionExplain})
+            #if($subTopicAnalysis.analysisIndex==1)
+                #set($questinIndexWarpper='①')
+            #elseif($subTopicAnalysis.analysisIndex==2)
+                #set($questinIndexWarpper='②')
+            #elseif($subTopicAnalysis.analysisIndex==3)
+                #set($questinIndexWarpper='③')
+            #elseif($subTopicAnalysis.analysisIndex==4)
+                #set($questinIndexWarpper='④')
+            #elseif($subTopicAnalysis.analysisIndex==5)
+                #set($questinIndexWarpper='⑤')
+            #elseif($subTopicAnalysis.analysisIndex==6)
+                #set($questinIndexWarpper='⑥')
+            #elseif($subTopicAnalysis.analysisIndex==7)
+                #set($questinIndexWarpper='⑦')
+            #elseif($subTopicAnalysis.analysisIndex==8)
+                #set($questinIndexWarpper='⑧')
+            #elseif($subTopicAnalysis.analysisIndex==9)
+                #set($questinIndexWarpper='⑨')
+            #elseif($subTopicAnalysis.analysisIndex==10)
+                #set($questinIndexWarpper='⑩')
+            #else
+                #set($questinIndexWarpper=$subTopicAnalysis.analysisIndex)
+            #end
+            #set($questinIndexWarpper=$showIndex+""+$questinIndexWarpper)
+
+            #if(($isError && $needErrorAnswer)||(!$isError && $needRelevantAnswer))
+                <div class='rightAnswerContent'>
+                    #echo(${subTopicAnalysis.answers[0].content})
+                    #imgTransfer($questinIndexWarpper,${subTopicAnalysis.answers[0].content},'',$exerciseInfo.exerciseId,${currentQuestion.subQuestions.get($velocityCount).questionId},"AnswerMerge")
+                    #set($questinIndexWarpper="")
+                </div>
+            #end
+
+            #if(($isError && $needErrorAnalysis)||(!$isError && $needRelevantAnalysis))
+                #if($questionExplain==""||$questionExplain=="<p>无</p>"||$questionExplain=="无"  )
+
+                #else
+                <div class='analyseContent'>
+                        #echo(${subTopicAnalysis.questionExplain})
+                        #imgTransfer($questinIndexWarpper,${subTopicAnalysis.questionExplain},'',$exerciseInfo.exerciseId,${currentQuestion.subQuestions.get($velocityCount).questionId},"AnalyseMerge")
+                        #set($questinIndexWarpper="")
+                </div>
+                #end
+            #end
+
+        #end
+
+  #end
+</div>
+
+#end
